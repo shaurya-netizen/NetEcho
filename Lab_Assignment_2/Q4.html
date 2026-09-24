@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up Form</title>
+</head>
+<body>
+
+<h2>Student Registration</h2>
+
+<form action="#" method="POST">
+
+    <div>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+    </div>
+    <br>
+
+    <div>
+        <label for="emailAddr">Email Address:</label>
+        <input type="email" id="emailAddr" name="emailAddr" required>
+    </div>
+    <br>
+
+    <div>
+        <label for="pass">Create Password:</label>
+        <input type="password" id="pass" name="pass" required>
+    </div>
+    <br>
+
+    <div>
+        <label>Select Gender:</label>
+        <input type="radio" id="gen_male" name="gender" value="male">
+        <label for="gen_male">Male</label>
+        
+        <input type="radio" id="gen_female" name="gender" value="female">
+        <label for="gen_female">Female</label>
+        
+        <input type="radio" id="gen_other" name="gender" value="other">
+        <label for="gen_other">Other</label>
+    </div>
+    <br>
+
+    <div>
+        <label>Interests:</label>
+        <input type="checkbox" id="coding" name="interest" value="coding">
+        <label for="coding">Coding</label>
+        
+        <input type="checkbox" id="traveling" name="interest" value="traveling">
+        <label for="traveling">Traveling</label>
+    </div>
+    <br>
+
+    <div>
+        <label for="program">Degree Program:</label>
+        <select id="program" name="program">
+            <option value="bsc">B.Sc</option>
+            <option value="btech">B.Tech</option>
+            <option value="bcom">B.Com</option>
+        </select>
+    </div>
+    <br>
+
+    <button type="submit">Sign Up</button>
+
+</form>
+
+</body>
+</html>
